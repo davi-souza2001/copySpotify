@@ -1,4 +1,5 @@
 # spotifyvue
+## A copy of spotify made in vue (building)
 
 ## Project setup
 ```
