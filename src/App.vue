@@ -1,17 +1,22 @@
 <template>
   <div>
     <HeadBar/>
+    <div style="display: flex">
+      <LeftBar/>
+    </div>
   </div>
 </template>
 
 <script>
 
 import HeadBar from "./components/HeadBar.vue";
+import LeftBar from "./components/LeftBar.vue";
 
 export default {
   name: 'App',
   components: {
-    HeadBar
+    HeadBar,
+    LeftBar
   }
 }
 </script>
