@@ -7,6 +7,7 @@
 
 <script>
 export default {
+    name: 'LeftBar',
 
 }
 </script>
@@ -27,7 +28,7 @@ export default {
     margin-top: 2vh;
     width: 18vh;
     border-radius: 5px;
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(58, 58, 58);
     font-size: 99%;
 }
 </style>

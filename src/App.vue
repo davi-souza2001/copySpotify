@@ -3,6 +3,7 @@
     <HeadBar/>
     <div style="display: flex">
       <LeftBar/>
+      <Content/>
     </div>
   </div>
 </template>
@@ -11,12 +12,14 @@
 
 import HeadBar from "./components/HeadBar.vue";
 import LeftBar from "./components/LeftBar.vue";
+import Content from "./components/Content.vue";
 
 export default {
   name: 'App',
   components: {
     HeadBar,
-    LeftBar
+    LeftBar,
+    Content
   }
 }
 </script>
