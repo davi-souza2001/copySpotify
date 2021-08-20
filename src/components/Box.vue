@@ -1,9 +1,9 @@
 <template>
   <div class="contentbox">
-      <img src="" alt="Foto da capa">
+      <img src="../assets/johnmayer.jpeg" alt="">
       <div class="music">
-          <h3>Slow dance</h3>
-          <h4>John Mayer</h4>
+          <h3>{{musicName}}</h3>
+          <h4>{{singlerName}}</h4>
       </div>
   </div>
 </template>
@@ -11,6 +11,16 @@
 <script>
 export default {
     name: 'Box',
+    props:{
+        musicName:{
+            type: String,
+            default: ""
+        },
+        singlerName:{
+            type: String,
+            default: ""
+        }
+    }
 }
 </script>
 
@@ -20,11 +30,13 @@ export default {
     align-content: center;
     justify-content: center;
     flex-direction: column;
-    height: 42vh;
-    width: 34vh;
-    border-radius: 10px;
+    height: 38vh;
+    width: 29vh;
+    margin: 0 2vw;
+    border-radius: 5px;
     background-color: rgb(47, 47, 47);
 }
+
 h3{
     margin-left: 1vw;
     color: rgb(221, 221, 221);
