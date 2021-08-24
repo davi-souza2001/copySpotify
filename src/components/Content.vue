@@ -40,6 +40,7 @@ export default {
   background-color: rgb(29, 29, 29);
 }
 h2 {
+  margin-top: 10px;
   color: white;
 }
 .boxes{
