@@ -35,6 +35,7 @@ export default {
     margin: 0 2vw;
     border-radius: 5px;
     background-color: rgb(47, 47, 47);
+    cursor: pointer;
 }
 
 h3{
